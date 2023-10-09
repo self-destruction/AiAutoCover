@@ -1,4 +1,5 @@
 # AiAutoCover
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_V1.ipynb)  
 Данный блокнот позволяет заменить голос в песне всего в несколько кликов. Вам понадобятся ссылка на YouTube и ссылка на модель вокала. Всё!  
 Используются open-source модели и репозиторий [UVR](https://github.com/Anjok07/ultimatevocalremovergui) для отделения вокала от инструментала и [RVC](https://github.com/Mangio621/Mangio-RVC-Fork) для преобразования вокала.
 
