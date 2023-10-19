@@ -1,7 +1,8 @@
 # AiAutoCover
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_V1.ipynb)  
-Данный блокнот позволяет заменить голос в песне всего в несколько кликов. Вам понадобятся ссылка на YouTube и ссылка на модель вокала. Всё!  
-Используются open-source модели и репозиторий [UVR](https://github.com/Anjok07/ultimatevocalremovergui) для отделения вокала от инструментала и [RVC](https://github.com/Mangio621/Mangio-RVC-Fork) для преобразования вокала.
+Данный блокнот позволяет заменить голос в песне всего в несколько кликов. Вам понадобятся ссылка на YouTube и ссылка на модель вокала. Всё, нейро-кавер готов!  
+Используются open-source модели и репозиторий [UVR](https://github.com/Anjok07/ultimatevocalremovergui) для отделения вокала от инструментала, [RVC](https://github.com/Mangio621/Mangio-RVC-Fork) для преобразования вокала, [SadTalker](https://github.com/OpenTalker/SadTalker) для анимирования лица (если используете [блокнот с SadTalker](https://github.com/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_SadTalker_V1.ipynb)).  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_V1.ipynb) - AI Auto Cover  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_SadTalker_V1.ipynb) - AI Auto Cover + SadTalker
 
 ## Как работает
 
@@ -17,13 +18,17 @@
 
 После преобразования вокала следует пост-обработка, которая включает в себя компрессию, нормализацию, лёгкую реверберацию и разведение по стерео-панораме. Затем вокал и инструментал смешиваются обратно, и вуаля, ваш кавер готов!
 
+### Анимирование фотографии
+
+Используя [блокнот с SadTalker](https://github.com/self-destruction/AiAutoCover/blob/main/AI_Auto_Cover_SadTalker_V1.ipynb) можно заставить "петь" под готовый кавер любую фотографию.
+
 ### Повторное использование
 
 Система позволяет возвращаться к любому предыдущему шагу без необходимости запускать полный процесс заново. Например, вы можете загрузить другую модель вокала и преобразовать её, не возвращаясь к отделению вокала от инструмента.
 
 # TODO
 
-Вот некоторые вещи, которые я планирую добавить или улучшить в AiAutoCover:
+Вот некоторые вещи, которые я планирую добавить или улучшить:
 
 ## Прикрутить Google Drive
 Сейчас каждый раз приходится скачивать репозитории и устанавливать зависимости, так что первым делом надо сделать Google Drive основным хранилищем. Это облегчит жизнь и сэкономит время.
