@@ -47,7 +47,7 @@
 | 🚨 **Баг-репорты**              | [GitHub Трекер]                  |
 | 🎁 **Feature Requests & Идеи** | [GitHub Pull Requests]                  |
 
-[github issue tracker]: https://github.com/self-destruction/AiAutoCover/issues
+[gitHub трекер]: https://github.com/self-destruction/AiAutoCover/issues
 [github pull requests]: https://github.com/self-destruction/AiAutoCover/pulls
 ## 👩‍💻 Контрибьютеры и поддержка 🐸
 Спасибо [NeuroDonu](https://github.com/NeuroDonu) за помощь ❤
